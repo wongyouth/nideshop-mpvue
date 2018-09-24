@@ -84,7 +84,7 @@
         .item.item-b.item-more
           a.more-a(:href="'/pages/category/category?id='+item.id")
             .txt {{'更多'+item.name+'好物'}}
-            img.icon(src="../../static/images/icon_go_more.png" style="background-size:cover")
+            img.icon(src="../../../static/images/icon_go_more.png" style="background-size:cover")
 </template>
 
 <script>
