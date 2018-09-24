@@ -1,8 +1,11 @@
 module.exports = [
   {
-    path: 'pages/index/index',
+    path: 'pages/index/index'
   },
   {
-    path: 'pages/topic/topic',
+    path: 'pages/topic/topic'
+  },
+  {
+    path: 'pages/catalog/catalog'
   }
 ]
