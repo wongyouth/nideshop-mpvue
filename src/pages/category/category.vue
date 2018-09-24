@@ -2,7 +2,7 @@
   .container
     .cate-nav
       scroll-view.cate-nav-body(
-        :scroll-x="true" :style="'width: 750rpx; scroll-left:' + scrollLeft"
+        :scroll-x="true" style="width: 750rpx;" :scroll-left="scrollLeft"
       )
         .item(
           v-for="(item,index) in navList"
