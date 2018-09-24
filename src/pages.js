@@ -7,5 +7,8 @@ module.exports = [
   },
   {
     path: 'pages/catalog/catalog'
+  },
+  {
+    path: 'pages/cart/cart'
   }
 ]
