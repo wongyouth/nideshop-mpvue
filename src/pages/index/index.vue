@@ -20,7 +20,7 @@
         a(href="../brand/brand")
           text.txt 品牌制造商直供
       .b
-        .item.item-1(v-for="item in brand" :key="item.id")
+        .item.item-1(v-for="item in brands" :key="item.id")
           a(:href="'/pages/brandDetail/brandDetail?id=' + item.id")
             .wrap
               img.img(:src="item.new_pic_url" mode="aspectFill")
@@ -121,7 +121,7 @@ export default {
             newGoods: res.data.newGoodsList,
             hotGoods: res.data.hotGoodsList,
             topics: res.data.topicList,
-            brand: res.data.brandList,
+            brands: res.data.brandList,
             floorGoods: res.data.categoryList,
             banner: res.data.banner,
             channel: res.data.channel
