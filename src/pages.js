@@ -21,6 +21,9 @@ module.exports = [
     path: 'pages/goods/goods'
   },
   {
+    path: 'pages/goods/new'
+  },
+  {
     path: 'pages/brand/index'
   },
   {

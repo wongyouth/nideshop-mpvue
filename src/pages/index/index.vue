@@ -31,7 +31,7 @@
     .a-section.a-new(v-if="newGoods.length > 0")
       .h
         div
-          a(href="../newGoods/newGoods")
+          a(href="../goods/new")
             text.txt 周一周四 · 新品首发
       .b
         .item(
