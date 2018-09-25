@@ -5,6 +5,7 @@
     "pages/catalog/catalog",
     "pages/category/category",
     "pages/goods/goods",
+    "pages/brand/index",
     "pages/brand/detail",
     "pages/cart/cart"
   ],

@@ -17,7 +17,7 @@
         text {{item.name}}
     .a-section.a-brand
       .h
-        a(href="../brand/brand")
+        a(href="../brand/index")
           text.txt 品牌制造商直供
       .b
         .item.item-1(v-for="item in brands" :key="item.id")
