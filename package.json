@@ -13,6 +13,7 @@
   "dependencies": {
     "mpvue": "^1.0.11",
     "mpvue-entry": "^1.5.5",
+    "mpvue-wxparse": "^0.6.5",
     "pug": "^2.0.3",
     "pug-plain-loader": "^1.0.0",
     "stylus": "^0.54.5",

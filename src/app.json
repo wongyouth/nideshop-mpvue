@@ -4,6 +4,7 @@
     "pages/topic/topic",
     "pages/catalog/catalog",
     "pages/category/category",
+    "pages/goods/goods",
     "pages/cart/cart"
   ],
   "window": {

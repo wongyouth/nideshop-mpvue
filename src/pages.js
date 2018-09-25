@@ -16,5 +16,8 @@ module.exports = [
   },
   {
     path: 'pages/category/category'
+  },
+  {
+    path: 'pages/goods/goods'
   }
 ]
