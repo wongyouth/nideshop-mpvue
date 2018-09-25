@@ -39,6 +39,16 @@ export default {
     this.getBrandList()
   },
 
+  onReachBottom () {
+    if (this.totalPages > this.page) {
+      this.page = this.page + 1
+    } else {
+      return false
+    }
+
+    this.getBrandList()
+  },
+
   methods: {
     getBrandList: function () {
       wx.showLoading({
@@ -56,15 +66,6 @@ export default {
           }
           wx.hideLoading()
         })
-    },
-    onReachBottom () {
-      if (this.totalPages > this.page) {
-        this.page = this.page + 1
-      } else {
-        return false
-      }
-
-      this.getBrandList()
     }
   },
 
