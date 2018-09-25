@@ -21,7 +21,7 @@
           text.txt 品牌制造商直供
       .b
         .item.item-1(v-for="item in brands" :key="item.id")
-          a(:href="'/pages/brandDetail/brandDetail?id=' + item.id")
+          a(:href="'/pages/brand/detail?id=' + item.id")
             .wrap
               img.img(:src="item.new_pic_url" mode="aspectFill")
               .mt
