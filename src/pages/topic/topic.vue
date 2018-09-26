@@ -4,7 +4,7 @@
       a.item(
         v-for="item in topicList"
         :key="item.id"
-        :href="'../topicDetail/topicDetail?id='+item.id"
+        :href="'../topic/detail?id='+item.id"
       )
         img.img(:src="item.scene_pic_url")
         .info
