@@ -45,7 +45,7 @@
     .a-section.a-popular(v-if="hotGoods.length > 0")
       .h
         div
-          a(href="../hotGoods/hotGoods")
+          a(href="../goods/hot")
             text.txt 人气推荐
       .b
         .item(v-for="(item,index) in hotGoods" :key="item.id")

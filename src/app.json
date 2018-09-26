@@ -6,6 +6,7 @@
     "pages/category/category",
     "pages/goods/goods",
     "pages/goods/new",
+    "pages/goods/hot",
     "pages/brand/index",
     "pages/brand/detail",
     "pages/cart/cart"
