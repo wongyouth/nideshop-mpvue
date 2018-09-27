@@ -37,5 +37,8 @@ module.exports = [
   },
   {
     path: 'pages/search/search'
+  },
+  {
+    path: 'pages/comment/comment'
   }
 ]
