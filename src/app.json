@@ -3,6 +3,7 @@
     "pages/index/index",
     "pages/topic/topic",
     "pages/topic/detail",
+    "pages/topic/comment-post",
     "pages/catalog/catalog",
     "pages/category/category",
     "pages/goods/goods",
