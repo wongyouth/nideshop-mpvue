@@ -10,6 +10,7 @@
     "pages/goods/hot",
     "pages/brand/index",
     "pages/brand/detail",
+    "pages/search/search",
     "pages/cart/cart"
   ],
   "window": {

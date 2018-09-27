@@ -34,5 +34,8 @@ module.exports = [
   },
   {
     path: 'pages/brand/detail'
+  },
+  {
+    path: 'pages/search/search'
   }
 ]
