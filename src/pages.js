@@ -43,5 +43,8 @@ module.exports = [
   },
   {
     path: 'pages/comment/comment'
+  },
+  {
+    path: 'pages/ucenter/index'
   }
 ]

@@ -13,7 +13,8 @@
     "pages/brand/detail",
     "pages/search/search",
     "pages/comment/comment",
-    "pages/cart/cart"
+    "pages/cart/cart",
+    "pages/ucenter/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -46,6 +47,12 @@
         "iconPath": "static/images/ic_menu_shoping_nor.png",
         "selectedIconPath": "static/images/ic_menu_shoping_pressed.png",
         "text": "购物车"
+      },
+      {
+        "pagePath": "pages/ucenter/index",
+        "iconPath": "static/images/ic_menu_me_nor.png",
+        "selectedIconPath": "static/images/ic_menu_me_pressed.png",
+        "text": "我的"
       }
     ]
   }
