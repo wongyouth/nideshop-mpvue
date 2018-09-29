@@ -16,7 +16,8 @@
     "pages/cart/cart",
     "pages/shopping/checkout",
     "pages/ucenter/index",
-    "pages/ucenter/order"
+    "pages/ucenter/order",
+    "pages/ucenter/address"
   ],
   "window": {
     "backgroundTextStyle": "light",

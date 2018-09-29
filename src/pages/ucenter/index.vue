@@ -32,7 +32,7 @@
             text.icon.kefu
             text.txt 会员福利
         .item
-          navigator.a(url='../address')
+          navigator.a(url='./address')
             text.icon.address
             text.txt 地址管理
         .item
