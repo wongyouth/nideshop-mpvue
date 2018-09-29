@@ -12,7 +12,7 @@
           .r
             img.del(@click='deleteAddress(item.id)', src='/static/images/del-address.png')
       .empty-view(v-if='addressList.length <= 0 ')
-        img.icon(src='http:// yanxuan.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/noAddress-26d570cefa.png')
+        img.icon(src='http://yanxuan.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/noAddress-26d570cefa.png')
         text.text 收货地址在哪里
       .add-address(@click='addressAddOrUpdate(0)') 新建
 </template>
@@ -49,7 +49,7 @@ export default {
     },
     addressAddOrUpdate (addressId) {
       wx.navigateTo({
-        url: '/pages/ucenter/addressAdd/addressAdd?id=' + addressId
+        url: '/pages/ucenter/addressAdd?id=' + addressId
       })
     },
     deleteAddress (addressId) {

@@ -55,5 +55,8 @@ module.exports = [
   },
   {
     path: 'pages/ucenter/address'
+  },
+  {
+    path: 'pages/ucenter/addressAdd'
   }
 ]
