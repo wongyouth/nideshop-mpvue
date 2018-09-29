@@ -312,7 +312,7 @@ export default {
       }
 
       wx.navigateTo({
-        url: '../shopping/checkout/checkout'
+        url: '../shopping/checkout'
       })
     },
     deleteCart: function () {

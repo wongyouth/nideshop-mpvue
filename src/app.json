@@ -14,6 +14,7 @@
     "pages/search/search",
     "pages/comment/comment",
     "pages/cart/cart",
+    "pages/shopping/checkout",
     "pages/ucenter/index",
     "pages/ucenter/order"
   ],
