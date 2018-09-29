@@ -14,7 +14,8 @@
     "pages/search/search",
     "pages/comment/comment",
     "pages/cart/cart",
-    "pages/ucenter/index"
+    "pages/ucenter/index",
+    "pages/ucenter/order"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -46,5 +46,8 @@ module.exports = [
   },
   {
     path: 'pages/ucenter/index'
+  },
+  {
+    path: 'pages/ucenter/order'
   }
 ]

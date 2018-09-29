@@ -8,11 +8,11 @@
           // text.level {{userInfo.username}}
       .user-menu
         .item
-          navigator.a(url='/pages/ucenter/order/order')
+          navigator.a(url='/pages/ucenter/order')
             text.icon.order
             text.txt 我的订单
         .item
-          navigator.a(url='/pages/ucenter/coupon/coupon')
+          navigator.a(url='/pages/ucenter/coupon')
             text.icon.coupon
             text.txt 优惠券
         .item.no-border
@@ -20,11 +20,11 @@
             text.icon.gift
             text.txt 礼品卡
         .item
-          navigator.a(url='/pages/ucenter/collect/collect')
+          navigator.a(url='/pages/ucenter/collect')
             text.icon.address
             text.txt 我的收藏
         .item
-          navigator.a(url='/pages/ucenter/footprint/footprint')
+          navigator.a(url='/pages/ucenter/footprint')
             text.icon.security
             text.txt 我的足迹
         .item.no-border
@@ -32,7 +32,7 @@
             text.icon.kefu
             text.txt 会员福利
         .item
-          navigator.a(url='../address/address')
+          navigator.a(url='../address')
             text.icon.address
             text.txt 地址管理
         .item
@@ -48,7 +48,7 @@
             text.icon.help
             text.txt 帮助中心
         .item.item-bottom
-          navigator.a(url='/pages/ucenter/feedback/feedback')
+          navigator.a(url='/pages/ucenter/feedback')
             text.icon.feedback
             text.txt 意见反馈
       // .logout(@click="exitLogin") 退出登录
