@@ -45,6 +45,9 @@ module.exports = [
     path: 'pages/comment/comment'
   },
   {
+    path: 'pages/shopping/address'
+  },
+  {
     path: 'pages/shopping/checkout'
   },
   {

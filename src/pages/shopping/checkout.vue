@@ -88,6 +88,7 @@ export default {
   },
 
   mounted () {
+    console.log('get addressId')
     // 页面初始化 options为页面跳转所带来的参数
     try {
       var addressId = wx.getStorageSync('addressId')
@@ -136,12 +137,12 @@ export default {
     },
     selectAddress () {
       wx.navigateTo({
-        url: '/pages/shopping/address/address'
+        url: '/pages/shopping/address'
       })
     },
     addAddress () {
       wx.navigateTo({
-        url: '/pages/shopping/addressAdd/addressAdd'
+        url: '/pages/shopping/addressAdd'
       })
     },
     submitOrder: function () {
