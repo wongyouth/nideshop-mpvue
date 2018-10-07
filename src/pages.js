@@ -39,6 +39,9 @@ module.exports = [
     path: 'pages/brand/detail'
   },
   {
+    path: 'pages/payResult/payResult'
+  },
+  {
     path: 'pages/search/search'
   },
   {
