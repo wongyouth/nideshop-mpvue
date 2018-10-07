@@ -153,7 +153,7 @@ export default {
       util
         .request(
           api.OrderSubmit,
-          { addressId: this.addressId, couponId: this.data.couponId },
+          { addressId: this.addressId, couponId: this.couponId },
           'POST'
         )
         .then(res => {
