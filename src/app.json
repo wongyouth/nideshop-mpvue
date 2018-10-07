@@ -15,6 +15,7 @@
     "pages/comment/comment",
     "pages/cart/cart",
     "pages/shopping/address",
+    "pages/shopping/addressAdd",
     "pages/shopping/checkout",
     "pages/ucenter/index",
     "pages/ucenter/order",

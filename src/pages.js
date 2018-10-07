@@ -48,6 +48,9 @@ module.exports = [
     path: 'pages/shopping/address'
   },
   {
+    path: 'pages/shopping/addressAdd'
+  },
+  {
     path: 'pages/shopping/checkout'
   },
   {
