@@ -14,6 +14,7 @@
     "pages/search/search",
     "pages/comment/comment",
     "pages/cart/cart",
+    "pages/pay/pay",
     "pages/payResult/payResult",
     "pages/shopping/address",
     "pages/shopping/addressAdd",

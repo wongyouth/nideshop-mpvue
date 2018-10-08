@@ -16,7 +16,7 @@
           .b
             .l 实付：￥{{item.actual_price}}
             .r
-              button.btn(@click='payOrder', v-if='item.handleOption.pay') 去付款
+              button.btn(@click='payOrder(item)', v-if='item.handleOption.pay') 去付款
 </template>
 
 <script>
@@ -50,9 +50,9 @@ export default {
         }
       })
     },
-    payOrder () {
+    payOrder (order) {
       wx.redirectTo({
-        url: '/pages/pay/pay'
+        url: `/pages/pay/pay?orderId=${order.id}&actualPrice=${order.actual_price}`
       })
     }
   },
