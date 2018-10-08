@@ -65,12 +65,12 @@ export default {
               paySign: payParam.paySign,
               success: function (res) {
                 wx.redirectTo({
-                  url: '/pages/payResult/payResult?status=true'
+                  url: '/pages/pay/result?status=true'
                 })
               },
               fail: function (res) {
                 wx.redirectTo({
-                  url: '/pages/payResult/payResult?status=false'
+                  url: '/pages/pay/result?status=false'
                 })
               }
             })

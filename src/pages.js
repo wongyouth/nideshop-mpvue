@@ -42,7 +42,7 @@ module.exports = [
     path: 'pages/pay/pay'
   },
   {
-    path: 'pages/payResult/payResult'
+    path: 'pages/pay/result'
   },
   {
     path: 'pages/search/search'
