@@ -66,6 +66,9 @@ module.exports = [
     path: 'pages/ucenter/order'
   },
   {
+    path: 'pages/ucenter/orderDetail'
+  },
+  {
     path: 'pages/ucenter/address'
   },
   {

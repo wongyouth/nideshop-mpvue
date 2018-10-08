@@ -2,7 +2,7 @@
   .order
     .container
       .orders
-        a.order(:href="'../orderDetail/orderDetail?id=' + item.id", v-for='item in orderList', :key='item.id')
+        a.order(:href="'./orderDetail?id=' + item.id", v-for='item in orderList', :key='item.id')
           .h
             .l 订单编号：{{item.order_sn}}
             .r {{item.order_status_text}}
