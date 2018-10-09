@@ -22,7 +22,7 @@
             .comment
               | {{item.content}}
         .load(v-if='commentCount > 5')
-          a(:href="'/pages/topicComment/topicComment?typeId=1&valueId=' + topic.id") &#x67E5;&#x770B;&#x66F4;&#x591A;
+          a(:href="'/pages/topic/comment?typeId=1&valueId=' + topic.id") &#x67E5;&#x770B;&#x66F4;&#x591A;
       .no-comments(v-if='commentList.length <= 0')
         .b
           image.icon(src='http://yanxuan.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/no-comment-560f87660a.png')
@@ -34,7 +34,7 @@
         a.item(
           v-for='item in topicList'
           :key='item.id'
-          :href="'../topicDetail/topicDetail?id=' + item.id"
+          :href="'./detail?id=' + item.id + '&t=' + Date.now()"
         )
           image.img(:src='item.scene_pic_url')
           text.title {{item.title}}

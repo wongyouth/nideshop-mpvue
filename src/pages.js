@@ -9,6 +9,9 @@ module.exports = [
     path: 'pages/topic/detail'
   },
   {
+    path: 'pages/topic/comment'
+  },
+  {
     path: 'pages/catalog/catalog'
   },
   {
