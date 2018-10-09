@@ -106,7 +106,7 @@ export default {
     postComment () {
       wx.navigateTo({
         url:
-          '/pages/topic/comment-post?valueId=' + this.id + '&typeId=1'
+          '/pages/comment/post?valueId=' + this.id + '&typeId=1'
       })
     }
   },

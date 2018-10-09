@@ -9,9 +9,6 @@ module.exports = [
     path: 'pages/topic/detail'
   },
   {
-    path: 'pages/topic/comment-post'
-  },
-  {
     path: 'pages/catalog/catalog'
   },
   {
@@ -49,6 +46,9 @@ module.exports = [
   },
   {
     path: 'pages/comment/comment'
+  },
+  {
+    path: 'pages/comment/post'
   },
   {
     path: 'pages/shopping/address'
