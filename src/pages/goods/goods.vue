@@ -113,7 +113,7 @@
         .box
           text.cart-count {{cartGoodsCount}}
           image.icon(@click="openCartPage" src="/static/images/ic_menu_shoping_nor.png")
-      .c 立即购买
+      .c(@click='buyNow') 立即购买
       .r(@click="addToCart") 加入购物车
 
 </template>
@@ -442,6 +442,10 @@ export default {
       Object.assign(this.$data, {
         number: this.number + 1
       })
+    },
+    buyNow () {
+      // TODO
+      console.log('TODO')
     }
   }
 }
