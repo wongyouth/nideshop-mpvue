@@ -24,7 +24,8 @@
     "pages/ucenter/order",
     "pages/ucenter/orderDetail",
     "pages/ucenter/address",
-    "pages/ucenter/addressAdd"
+    "pages/ucenter/addressAdd",
+    "pages/ucenter/collect"
   ],
   "window": {
     "backgroundTextStyle": "light",
