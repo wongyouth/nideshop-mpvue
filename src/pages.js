@@ -79,5 +79,8 @@ module.exports = [
   },
   {
     path: 'pages/ucenter/collect'
+  },
+  {
+    path: 'pages/ucenter/footprint'
   }
 ]
