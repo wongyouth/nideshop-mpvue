@@ -81,6 +81,9 @@ module.exports = [
     path: 'pages/ucenter/collect'
   },
   {
+    path: 'pages/ucenter/coupon'
+  },
+  {
     path: 'pages/ucenter/footprint'
   }
 ]

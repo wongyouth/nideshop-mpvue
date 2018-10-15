@@ -26,6 +26,7 @@
     "pages/ucenter/address",
     "pages/ucenter/addressAdd",
     "pages/ucenter/collect",
+    "pages/ucenter/coupon",
     "pages/ucenter/footprint"
   ],
   "window": {
