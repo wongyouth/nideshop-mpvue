@@ -84,6 +84,9 @@ module.exports = [
     path: 'pages/ucenter/coupon'
   },
   {
+    path: 'pages/ucenter/feedback'
+  },
+  {
     path: 'pages/ucenter/footprint'
   }
 ]
