@@ -2,14 +2,26 @@
 
 基于 <https://github.com/tumobi/nideshop-mini-program> 改写的 `mpvue` 版本
 
-### 所有功能已经全部整理完，以下的页面在实际处理中并没有用到，没有转成 `mpvue`版本
+### 所有功能已经全部整理完，以下的页面在实际处理中并没有用到，所有没有转成 `mpvue`版本
 
 - auth/login/login
 - auth/register/register
 - auth/reset/reset
 - ucenter/express/express
 
-小程序版中还有很多的按钮没有实际函数处理，这里没有不完善。所以这个版本与原始版一样没法商用。如果要用还要再开发才行。
+小程序版中还有很多的按钮没有实际函数处理，`mpvue` 并没有完善这部分处理，
+所以这个版本与原始版一样请不要直接商用!
+
+### 转换代码
+
+convert2mpvue.sh 是一个替换脚本，可以转换小程序的代码到 `mpvue` 版本，并不完善，但是能加快处理速度。替换清单有：
+
+- setData( => Object.assign(this.$data,
+- wx-if => v-if
+- wx-for => v-for
+- wx-key => :key
+- bindtap => @click
+- ...
 
 ### NideShop商城（微信小程序端）
 
