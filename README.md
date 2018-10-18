@@ -2,7 +2,14 @@
 
 基于 <https://github.com/tumobi/nideshop-mini-program> 改写的 `mpvue` 版本
 
-Work in progress
+### 所有功能已经全部整理完，以下的页面在实际处理中并没有用到，没有转成 `mpvue`版本
+
+- auth/login/login
+- auth/register/register
+- auth/reset/reset
+- ucenter/express/express
+
+小程序版中还有很多的按钮没有实际函数处理，这里没有不完善。所以这个版本与原始版一样没法商用。如果要用还要再开发才行。
 
 ### NideShop商城（微信小程序端）
 
@@ -26,9 +33,9 @@ Work in progress
 - [x] 人气商品
 - [x] 商品详情页面，包含加入购物车、收藏商品、商品评论功能
 - [x] 搜索功能
-- [ ] 完整的购物流程，商品的加入、编辑、删除、批量选择，收货地址的选择，下单支付
+- [x] 完整的购物流程，商品的加入、编辑、删除、批量选择，收货地址的选择，下单支付
 - [x] 购物车页面
-- [ ] 会员中心（订单、收藏、足迹、收货地址、意见反馈）
+- [x] 会员中心（订单、收藏、足迹、收货地址、意见反馈）
 
 ....
 
